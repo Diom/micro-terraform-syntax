@@ -1,6 +1,6 @@
 filetype: terraform
 detect:
-    filename: "\\.tf[vars]?$"
+    filename: "\\.tf(?:vars)?$"
 rules:
     - special: "\\b(provider|module|resource|description|variable|output|data)\\b"
     - type: "[-.\\w]+:"
